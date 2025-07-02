@@ -1,0 +1,8 @@
+#id {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(red, yellow, orange, green, blue, pink);
+}
+body{
+	background-color:yellow;
+}

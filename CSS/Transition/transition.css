@@ -1,0 +1,36 @@
+#h1{
+	transition: 2s;
+	margin-top: 5%;
+}
+#h1:hover{
+	transform: rotate(180deg);
+}
+button:hover{
+	width: 100%;
+}
+button{
+	border: 5px solid black;
+	height: 250px;
+	width: 250px;
+	background-color: red;
+	color: white;
+}
+#ease-in{
+	transition-duration: 5s;
+	transition-timing-function: ease-in;
+}
+#ease-out{
+	transition-duration: 5s;
+	transition-timing-function: ease-out;
+	margin-top: 2%;
+}
+#ease-in-out{
+	transition-duration: 5s;
+	transition-timing-function: ease-in-out;
+	margin-top: 2%;
+}
+#linear{
+	transition-duration: 5s;
+	transition-timing-function: linear;
+	margin-top: 2%;
+}

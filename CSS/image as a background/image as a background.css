@@ -1,0 +1,6 @@
+body {
+  background: url(image.jpeg);
+  background-size:100% 100%
+  /*background-size: cover;*/
+  /*Used to fill the container tag*/
+}

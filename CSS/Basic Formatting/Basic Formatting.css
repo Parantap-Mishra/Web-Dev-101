@@ -1,0 +1,23 @@
+#Helo {
+	text-align: center;
+	color: red;
+	font-family: Algerian;
+	font-size: 19;
+	margin-top: 10%
+}
+.bye {
+	text-align: center;
+	font-family: Algerian;
+	color: green;
+	margin-top: 10%
+}
+body{
+	background-color: yellow;
+	border: 5px dotted red;
+}
+#Helo:hover {
+	color:blue;
+}
+.bye:hover{
+	color: orange
+}

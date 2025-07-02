@@ -1,0 +1,12 @@
+#button{
+	border-radius: 100px;
+	margin-left: 50%;
+	margin-top: 15%;
+	width:80px;
+	height: 60px;
+	background-color: black;
+	color: green;
+}
+#button:hover{
+	background-image: linear-gradient(yellow, red, orange, blue, pink);
+}

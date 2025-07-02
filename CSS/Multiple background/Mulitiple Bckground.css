@@ -1,0 +1,16 @@
+body {
+	background-image: url(1.png), 
+	url(2.png), 
+	url(3.png), 
+	url(4.png), 
+	url(5.png), 
+	url(6.png), 
+	url(7.png), 
+	url(8.png), 
+	url(9.png), 
+	url(10.png), 
+	url(11.png);
+    background-size: 29%, 29%, 29%, 29%, 29%, 29%, 29%, 29%, 29%, 29%;
+	background-repeat: no-repeat;	
+	background-position: top left, center left, bottom left, top center, center, bottom center, top right, center right, bottom right;
+}

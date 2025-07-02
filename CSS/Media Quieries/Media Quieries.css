@@ -1,0 +1,40 @@
+/*******Base styles*********/
+h1{
+	margin-bottom: 15px;
+}
+p{
+	border: 5px solid black;
+	margin-bottom: 15px;
+}
+#p1{
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+}
+#p2{
+	background-color: purple;
+	width: 50px;
+	height: 50px;
+}
+/*******Large Devices*********/
+@media (min-width: 1200px){
+	#p1{
+		width: 80%;
+		background-color: orange;
+	}
+	#p2{
+		width:150px;
+		height:150px;
+	}
+}
+/*******Medium devices*********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#p1{
+		width: 50%;
+		background-color: red;
+	}
+	#p2{
+		width:100px;
+		height:100px;
+	}
+}

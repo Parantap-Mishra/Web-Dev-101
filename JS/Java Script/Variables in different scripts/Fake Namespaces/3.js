@@ -1,0 +1,2 @@
+ParantapGreeter.sayHello();
+RamGreeter.sayHi();

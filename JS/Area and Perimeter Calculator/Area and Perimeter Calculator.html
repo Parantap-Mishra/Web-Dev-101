@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area and Perimeter Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Area and Perimeter Calculator.css">
+</head>
+<body>
+	<h1 align="center" id="heading">Area and Perimeter Calculator</h1>
+	<div id="margin">
+		<h2>Area</h2>
+		<div id="area">
+			<button class="btn" onclick="ShowTri()">
+				<span class="span">Triangle</span>
+			</button>
+			<div id="AreaTri">
+				<input class="inputs" id="ATri1" type="text" placeholder="Base" style="margin-top: 5px;"><br>
+				<input class="inputs" id="ATri2" type="text" placeholder="Height"><br>
+				<button class="inputs" onclick="CalATri()">Submit</button>
+				<button class="inputs" onclick="TAR()">Reset</button>
+				<div id="TriAA"></div>
+			</div>
+
+			<button class="btn" onclick="ShowSq()">
+				<span class="span">Square</span>
+			</button>
+			<div id="AreaSq">
+				<input class="inputs" id="side" type="text" placeholder="Sides" style="margin-top: 5px;"><br>
+				<button class="inputs" onclick="CalASq()">Submit</button>
+				<button class="inputs" onclick="SAR()">Reset</button>
+				<div id="SqAA"></div>
+			</div>
+
+			<button class="btn" onclick="ShowRec()">
+				<span class="span">Rectangle</span>
+			</button>
+			<div id="AreaRec">
+				<input class="inputs" id="PL" type="text" placeholder="Length" style="margin-top: 5px;"><br>
+				<input class="inputs" id="PB" type="text" placeholder="Breadth"><br>
+				<button class="inputs" onclick="CalARec()">Submit</button>
+				<button class="inputs" onclick="RecAR()">Reset</button>
+				<div id="RecAA"></div>
+			</div>
+		</div>
+		<br><br>
+		<h2>Perimeter</h2>
+		<div id="perimeter">
+			<button class="btn" onclick="ShowPTri()">
+				<span class="span">Triangle</span>
+			</button>
+			<div id="PerimeterTri">
+				<input class="inputs" type="text" placeholder="1st Side" style="margin-top: 5px;"><br>
+				<input class="inputs" type="text" placeholder="2nd Side"><br>
+				<input class="inputs" type="text" placeholder="3rd Side"><br>
+				<button class="inputs" onclick="CalPTri()">Submit</button>
+			</div>
+
+			<button class="btn" onclick="ShowPSq()">
+				<span class="span">Square</span>
+			</button>
+			<div id="PerimeterSq">
+				<input class="inputs" type="text" placeholder="Sides" style="margin-top: 5px;"><br>
+				<button class="inputs" onclick="CalPSq()">Submit</button>
+			</div>
+
+			<button class="btn" onclick="ShowPRec()">
+				<span class="span">Rectangle</span>
+			</button>
+			<div id="PerimeterRec">
+				<input class="inputs" type="text" placeholder="Length" style="margin-top: 5px;"><br>
+				<input class="inputs" type="text" placeholder="Breadth"><br>
+				<button class="inputs" onclick="CalPRec()">Submit</button>
+			</div>
+		</div>
+
+
+
+	</div>
+	<script src="Area and Perimeter Calculator.js"></script>
+</body>
+</html>

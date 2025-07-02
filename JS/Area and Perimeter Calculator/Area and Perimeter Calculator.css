@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #f9e79f;
+	margin: 0;
+}
+#heading{
+	font-family: algerian;
+	background-color: red;
+	color: white;
+	margin-top: 0;
+}
+#margin{
+	margin: 5px;
+}
+.btn{
+	font-size: 1.3em;
+	width: 25%;
+	height: 44px;
+	background-color: yellow;
+	margin-top: 10px;
+	display: block;
+}
+.inputs{
+	margin-bottom: 5px;
+	margin-left: 5px;
+	font-size: 1.1em;
+}
+#AreaTri{
+	border: 1px solid black;
+	width: 25%;
+	background-color: yellow;
+	position: relative;
+	display:none;
+}
+#AreaSq{
+	border: 1px solid black;
+	width: 25%;
+	background-color: yellow;
+	display:none;
+}
+#AreaRec{
+	border: 1px solid black;
+	width: 25%;
+	background-color: yellow;
+	display:none;
+}
+#PerimeterTri{
+	border: 1px solid black;
+	width: 25%;
+	background-color: yellow;
+	position: relative;
+	display:none;
+}
+#PerimeterSq{
+	border: 1px solid black;
+	width: 25%;
+	background-color: yellow;
+	display:none;
+}
+#PerimeterRec{
+	border: 1px solid black;
+	width: 25%;
+	background-color: yellow;
+	display:none;
+}
+#TriAA{
+	margin: 10px;
+}

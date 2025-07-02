@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<style type="text/css">
+		body{
+			background-color: yellow;
+			animation-name: colChange; 
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes colChange{
+            0%{ 
+                background-color: darkseagreen;
+            }
+
+            25%{
+                background-color: darkturquoise;
+            }
+
+            50%{
+                background-color: turquoise;
+            }
+
+            75%{
+                background-color: darkgrey;
+            }
+
+            100%{
+                background-color: deepskyblue;
+            }
+        }
+		h1{
+			border: 1px solid black;
+			background-color: red;
+			width: 20%;
+			margin-left: 30%;
+			animation-name: rotate;
+	        animation-duration: 3s;
+	        animation-iteration-count: 2;
+		}
+		@keyframes rotate{
+			50%{
+				background-color: brown;
+			}
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        p{
+        	position: relative;
+        	font-size: 1.1em;
+        	animation-name: para;
+        	animation-duration: 10s;
+        	animation-iteration-count: infinite;
+        	display: block;
+        }
+        @keyframes para{
+            50%{
+        		color: yellow;
+        	}
+        }
+	</style>
+</head>
+<body>
+	<h1 align="center">I like to rotate</h1><br><br><br><br><br>
+	<p>I change color. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</body>
+</html>
